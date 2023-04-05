@@ -4,6 +4,7 @@ public class Personas {
     public int edad;
     public double talla;
     public String direccion;
+
     public Personas(String _nombre, String _apellido, int _edad, double _talla, String _direccion){
         this.nombre=_nombre;
         this.apellido=_apellido;
@@ -11,6 +12,7 @@ public class Personas {
         this.talla=_talla;
         this.direccion=_direccion;
     }
+
     public String getNombre(){
         return nombre;
     }
